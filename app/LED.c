@@ -241,34 +241,32 @@ void blink_LED3()
 		}
 }
 
-void blink_LED1_yield()
+void blink_LED1_yield(TaskBlock *tb)
 {
-	static uint32_t state = 0;
 	static uint32_t previousTime = 0;
 
-	startTaskLED()
+	startTaskLED(tb)
 
 	turnOnLED1();turnOnLED3();
 	if(delay(10, previousTime))
 	{
 	previousTime = currentTime;
-	yieldLED()
+	yieldLED(tb)
 	turnOnLED1();turnOnLED3();
 	if(delay(10, previousTime))
 	{
 	previousTime = currentTime;
-	yieldLED()
+	yieldLED(tb)
 	turnOffLED1();turnOffLED3();
 	if(delay(10, previousTime))
 	{
 	previousTime = currentTime;
 
-	endTaskLED()
+	endTaskLED(tb)
 }
 
-void blink_LED2_yield()
+void blink_LED2_yield(TaskBlock *tb)
 {
-	static uint32_t state = 0;
 	static uint32_t previousTime = 0;
 	if(switchControl() == GPIO_PIN_SET)
 	{
@@ -279,58 +277,53 @@ void blink_LED2_yield()
 		FAST_BLINK = 20;
 	}
 
-	startTaskLED()
+	startTaskLED(tb)
 
 	if(delay(FAST_BLINK,previousTime))
 	{
 		turnOnLED2();
 		previousTime = currentTime;
 
-	yieldLED()
+	yieldLED(tb)
 
 	if(delay(FAST_BLINK,previousTime))
 	{
 		turnOnLED2();
 		previousTime = currentTime;
 
-	yieldLED()
+	yieldLED(tb)
 
 	if(delay(FAST_BLINK,previousTime))
 	{
-		turnOnLED2();
+		turnOffLED2();
 		previousTime = currentTime;
 
-	endTaskLED()
+	endTaskLED(tb)
 }
 
-void blink_LED3_yield()
+void blink_LED3_yield(TaskBlock *tb)
 {
-	static uint32_t state = 0;
 	static uint32_t previousTime = 0;
 	static uint32_t count;
 
 	if(switchControl() == GPIO_PIN_SET)
 	{
-		FAST_BLINK = 5;
+		FAST_BLINK = 20;
 		count = 5;
 	}
-	else
-	{
-		FAST_BLINK = 20;
-	}
 
-	startTaskLED()
+	startTaskLED(tb)
 
 	if(delay(FAST_BLINK,previousTime))
 	{
 		turnOnLED4();
 		previousTime = currentTime;
 
-	yieldLED()
+	yieldLED(tb)
 
 	if(count == 0)
 	{
-		state = 0;
+		(tb)->state = LED_INITIAL;
 	}
 	if(delay(FAST_BLINK,previousTime))
 	{
@@ -338,32 +331,12 @@ void blink_LED3_yield()
 		count--;
 		previousTime = currentTime;
 
-	yieldLED()
+	yieldLED(tb)
 
-	if(delay(FAST_BLINK,previousTime))
+	if(delay(FAST_BLINK ,previousTime))
 	{
 		turnOffLED4();
 		previousTime = currentTime;
 
-	endTaskLED()
-}
-
-void yieldTest(TaskBlock *tb)
-{
-	static uint32_t state = 0;
-	static int here = 0;
-
-		startTask(tb);
-
-		here = 0;
-		yield(tb);
-		here = 1;
-		yield(tb);
-		here = 2;
-		yield(tb);
-		here = 3;
-		yield(tb);
-
-		endTask();
-
+	endTaskLED(tb)
 }

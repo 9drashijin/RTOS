@@ -4,8 +4,11 @@
 
 int main(void)
 {
-	TaskBlock tb;
-	initTaskBlock(&tb);
+	TaskBlock tb1, tb2, tb3, tb4;
+	initTaskBlock(&tb1);
+	initTaskBlock(&tb2);
+	initTaskBlock(&tb3);
+	initTaskBlock(&tb4);
 
 	initControl();
 	initLED1();
@@ -19,7 +22,10 @@ int main(void)
 			//blink_LED2();
 			//blink_LED3();
 
-			blink_LED1_yield();
-			//yieldTest(&tb); //stop here
+			//blink_LED1_yield(&tb1);
+			//blink_LED2_yield(&tb2);
+			//blink_LED3_yield(&tb3);
+
+			//blink_4_LEDs(&tb4);
 		}
 }
