@@ -340,3 +340,41 @@ void blink_LED3_yield(TaskBlock *tb)
 
 	endTaskLED(tb)
 }
+
+void blink_4_LEDs(TaskBlock *tb)
+{
+	static uint32_t previousTime = 0;
+
+	if(switchControl() == GPIO_PIN_SET)
+	{
+		startTaskLED(tb)
+		RunLight1()
+		seriousCase(5)
+		yieldLED(tb)
+
+		RunLight2()
+		seriousCase(5)
+		yieldLED(tb)
+
+		RunLight3()
+		seriousCase(5)
+		yieldLED(tb)
+
+		RunLight4()
+		seriousCase(5)
+		endTaskLED(tb)
+	}
+	else{
+		startTaskLED(tb)
+		turnOnLED4();
+		turnOnLED1();turnOffLED2();
+		seriousCase(10)
+		yieldLED(tb)
+		turnOnLED1();turnOffLED2();
+		seriousCase(10)
+		yieldLED(tb)
+		turnOffLED1();turnOnLED2();
+		seriousCase(10)
+		endTaskLED(tb)
+	}
+}

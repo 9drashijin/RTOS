@@ -9,10 +9,17 @@
 
 #define switchControl()	HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0)
 
-#define initTaskBlock(x) 	((x)->state = 0)
+#define initTaskBlock(x) 		((x)->state = LED_INITIAL)
 #define yieldLED(x) 			(x)->state = __LINE__; } break; case __LINE__:
 #define startTaskLED(x)			switch((x)->state) { case LED_INITIAL:
 #define endTaskLED(x)			(x)->state = LED_INITIAL;} break;}
+
+#define RunLight1(x) turnOnLED1();turnOffLED2();turnOffLED3();turnOnLED4(); // on 1
+#define RunLight2(x) turnOffLED1();turnOnLED2();turnOffLED3();turnOnLED4(); // on 2
+#define RunLight3(x) turnOffLED1();turnOffLED2();turnOnLED3();turnOnLED4(); // on 3
+#define RunLight4(x) turnOffLED1();turnOffLED2();turnOffLED3();turnOffLED4(); // on 4
+
+#define seriousCase(x) if(delay(x, previousTime)){previousTime = currentTime;
 
 typedef enum{
 	LED_INITIAL,

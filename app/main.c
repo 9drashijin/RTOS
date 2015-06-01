@@ -25,7 +25,6 @@ int main(void)
 			//blink_LED1_yield(&tb1);
 			//blink_LED2_yield(&tb2);
 			//blink_LED3_yield(&tb3);
-
-			//blink_4_LEDs(&tb4);
+			blink_4_LEDs(&tb4);
 		}
 }
