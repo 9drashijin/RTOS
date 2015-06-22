@@ -83,6 +83,16 @@ void initLED4()
 	HAL_GPIO_Init(GPIOC, &GpioInfo);
 }
 
+uint32_t updateTime(){
+	static uint32_t counter = 0;
+	static uint32_t currentTime = 0;
+	if(counter++ >= 100){
+		counter = 0;
+		currentTime++;
+	}
+	return currentTime;
+}
+/*
 uint32_t getCurrentTime()
 {
 	static uint32_t counter = 0;
@@ -94,6 +104,11 @@ uint32_t getCurrentTime()
 		currentTime++;
 	}
 	return currentTime;
+}
+*/
+
+uint32_t getCurrentTime(){
+	return HAL_GetTick();
 }
 
 int delay(uint32_t delayCycle, uint32_t previousTime)

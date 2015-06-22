@@ -1,9 +1,20 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
 #include "LED.h"
+#include "main.h"
+
+void testFunc();
+
+void initSysTick(){
+	if(SysTick_Config(SystemCoreClock / 100)){
+		while(1);
+	}
+}
 
 int main(void)
 {
+	testFunc();
+
 	TaskBlock tb1, tb2, tb3, tb4;
 	initTaskBlock(&tb1);
 	initTaskBlock(&tb2);
@@ -15,6 +26,8 @@ int main(void)
 	initLED2();
 	initLED3();
 	initLED4();
+
+	initSysTick();
 
 	while(1)
 		{
@@ -28,3 +41,5 @@ int main(void)
 			blink_4_LEDs(&tb4);
 		}
 }
+
+

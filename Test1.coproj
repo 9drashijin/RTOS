@@ -63,7 +63,7 @@
       <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
       <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
       <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
-      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="C:\Users\Student\AppData\Roaming\CooCox\CoIDE\config\flash\CooCox-Flash\CoIDE_STM32F4xx_2048K\STM32F4xx_2048.elf"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="./stm32f4xx_2048.elf"/>
     </DebugOption>
     <ExcludeFile/>
   </Target>
@@ -71,6 +71,7 @@
   <LocalComponents/>
   <Files>
     <File name="main.h" path="app/main.h" type="1"/>
+    <File name="assembly.s" path="app/assembly.s" type="1"/>
     <File name="LED.c" path="app/LED.c" type="1"/>
     <File name="stm32f4xx_it.c" path="app/stm32f4xx_it.c" type="1"/>
     <File name="Hardware" path="" type="2"/>
@@ -89,8 +90,8 @@
     <File name="Hardware/stm32f4xx_hal_rcc.c" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" type="1"/>
     <File name="startup_stm32f429xx.s" path="app/startup_stm32f429xx.s" type="1"/>
     <File name="system_stm32f4xx.c" path="app/system_stm32f4xx.c" type="1"/>
-    <File name="Core/core_cmSimd.h" path="app/core_cmSimd.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal_rcc.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" type="1"/>
+    <File name="Core/core_cmSimd.h" path="app/core_cmSimd.h" type="1"/>
     <File name="stm32f4xx.h" path="app/stm32f4xx.h" type="1"/>
     <File name="Core" path="" type="2"/>
     <File name="Hardware/stm32f4xx_hal.c" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" type="1"/>
