@@ -4,14 +4,26 @@
   .thumb
 
 .global  testFunc
-
+  .extern  dummy
   .section  .text.testFunc
   .type  testFunc, %function
 testFunc: 
+
  movs    r0, #0x12
  movs    r1, #0x34
  movs    r2, #0x56
  ldr	 r3, =#0x123456 //same as movw and movt
  movw.w  r4, 0x123
  movt.w  r4, 0x456
+ push 	 {lr}
+ movs	 r0, #12
+ bl	     dummy
+ pop     {lr}
+
+// push {r0,r1}
+// stmia 	 sp!, {r0,r1}
+// stmia 	 sp!, {r0,r1}
+// ldmia	 sp!, {r0,r1}
+// stmdb 	 sp!, {r1,r2,r0}
+
  bx  	 lr

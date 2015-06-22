@@ -5,6 +5,10 @@
 
 void testFunc();
 
+int dummy(int value){
+	return value *3;
+}
+
 void initSysTick(){
 	if(SysTick_Config(SystemCoreClock / 100)){
 		while(1);
