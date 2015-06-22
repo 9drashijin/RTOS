@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test1.map -O0 --gc-sections -LC:/Users/D203C-01/Desktop/Test1 -TC:/Users/D203C-01/Desktop/Test1/stm32f407vg_flash.ld -g">
-      <target file="Test1.elf" lastModified="14df533db68">
-         <source file="..\obj\LED.o" lastModified="14df533d199"/>
-         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14df533d0be"/>
-         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14df533cf09"/>
-         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14df533ce1f"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="14df533cfa5"/>
-         <source file="..\obj\startup_stm32f429xx.o" lastModified="14df533cbfd"/>
-         <source file="..\obj\stm32f4xx_hal.o" lastModified="14df533cd07"/>
-         <source file="..\obj\main.o" lastModified="14df533cba0"/>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test1.map -O0 --gc-sections -LC:/Users/D203C-01/Desktop/stm32f4-discovery-LEDs -TC:/Users/D203C-01/Desktop/stm32f4-discovery-LEDs/stm32f407vg_flash.ld -g">
+      <target file="Test1.elf" lastModified="14e18f7f416">
+         <source file="..\obj\LED.o" lastModified="14e18f7f196"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="14e18f7ec78"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14e18f7f0ac"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14e18f7ef64"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14e18f7ee9a"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="14e18f7ec87"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14e18f7efd2"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="14e18f7eda0"/>
+         <source file="..\obj\main.o" lastModified="14e18f7ebcc"/>
       </target>
    </processor>
 </history>
