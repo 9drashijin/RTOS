@@ -1,5 +1,26 @@
 #include "Task.h"
 
+/*	TASK SWITCHING MECHANISM
+ *
+ * 	- Push the rest of the register
+ * 	- Let R0 points to mainTCB
+ * 	- Store the current SP into *mainTcb.sp ; through R0
+ * 	- Let R0 points to taskOneTcb
+ * 	- Load *taskOneTcb ; through R0 in to current SP
+ * 	- return from interrupt using "bx lr"
+ *
+ *	 assembler
+ *	 .equ TCB_SP, 	8
+ *	 .equ TCB_NAME, 4
+ *	 .equ TCB_NEXT, 0
+ *	 str r1[r0, #TCB_SP]
+ * 	 ldr r1[r0, #TCB_SP]
+ *
+ * 	 *LinkedList >> Tcb *runningTcb;
+ * */
+
+
+
 uint8_t taskOneStack[1028];
 uint8_t taskTwoStack[1028];
 
