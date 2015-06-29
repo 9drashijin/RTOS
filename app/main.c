@@ -5,7 +5,7 @@
 
 void testFunc();
 
-int dummy(int value){
+int taskSwitch(int value){
 	return value *3;
 }
 
@@ -17,7 +17,9 @@ void initSysTick(){
 
 int main(void)
 {
-	testFunc();
+	initSysTick();
+	//testFunc();
+	schedular();
 
 	TaskBlock tb1, tb2, tb3, tb4;
 	initTaskBlock(&tb1);
@@ -30,8 +32,6 @@ int main(void)
 	initLED2();
 	initLED3();
 	initLED4();
-
-	initSysTick();
 
 	while(1)
 		{
