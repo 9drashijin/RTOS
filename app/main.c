@@ -1,9 +1,11 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
 #include "LED.h"
+#include "Task.h"
 #include "main.h"
 
 void testFunc();
+void schedular();
 
 int taskSwitch(int value){
 	return value *3;
@@ -19,7 +21,8 @@ int main(void)
 {
 	initSysTick();
 	//testFunc();
-	schedular();
+	//schedular();
+	initTcb();
 
 	TaskBlock tb1, tb2, tb3, tb4;
 	initTaskBlock(&tb1);

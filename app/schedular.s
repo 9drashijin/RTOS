@@ -10,11 +10,12 @@
 .extern HAL_IncTick
 .extern taskOneStack
 .extern taskTwoStack
+.extern CpuContext
 
   .section  .text.schedular
   .type  schedular, %function
 schedular:
-
+/*
  ldr    r0,  =#0xabababab
  ldr    r1,  =#0x11111111
  ldr    r2,  =#0x22222222
@@ -31,13 +32,15 @@ schedular:
  ldr    lr,  =#0xdddddddd
  push	{r0}
  b		 .
-
+*/
 .align 0
 .type  SysTick_Handler, %function
  SysTick_Handler:
 // Your Code Starts here :
 // Push the rest of the register
+
 push	{r4-r11}
+
 //push	{r4}
 //push	{r5}
 //push	{r6}
