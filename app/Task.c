@@ -27,19 +27,23 @@ uint8_t taskTwoStack[1028];
 Tcb mainTcb;
 Tcb taskOneTcb;
 Tcb taskTwoTcb;
+Tcb *readyQueue;
+Tcb *runningQueue;
+Tcb *blockQueue;
+
 CpuContext Context;
-CpuContext *cc = (CpuContext *)(((uint32_t)(&taskOneStack[1024])) - sizeof(CpuContext));
+CpuContext *cc = &Context; //(CpuContext *)(((uint32_t)(&taskOneStack[1024])) - sizeof(CpuContext));
 
 void taskOne(void){
- return;
+	while(1);
 }
 
 //Init all the TCB
 void initTcb(){
 	mainTcb.name = "main_thread";
-	mainTcb.sp = 0;
+	mainTcb.sp = 0x12345678;
 	taskOneTcb.name = "thread_1";
-	taskOneTcb.sp = (uint32_t)cc;
+	taskOneTcb.sp = (uint32_t)&Context;
 	//taskTwoTcb.name = "thread_2";
 	//taskTwoTcb.sp = &taskTwoStack[1028];
 
@@ -60,4 +64,6 @@ void initTcb(){
 	Context.pc   = (uint32_t)taskOne;
 	Context.xpsr = 0x01000000;
 
+	runningQueue = &mainTcb;
+	readyQueue = &taskOneTcb;
 }

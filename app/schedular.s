@@ -11,10 +11,15 @@
 .extern taskOneStack
 .extern taskTwoStack
 .extern CpuContext
+.extern mainTcb
+.extern readyQueue
+.extern runningQueue
 
   .section  .text.schedular
   .type  schedular, %function
 schedular:
+ldr    r0,  =#runningQueue
+
 /*
  ldr    r0,  =#0xabababab
  ldr    r1,  =#0x11111111
@@ -33,6 +38,8 @@ schedular:
  push	{r0}
  b		 .
 */
+
+
 .align 0
 .type  SysTick_Handler, %function
  SysTick_Handler:
@@ -41,6 +48,15 @@ schedular:
 
 push	{r4-r11}
 
+ldr    r0,  =runningQueue //mov address of runningQ to r0
+ldr    r1,  [r0]		   //deref runningQ, then content mov to r1
+ldr    r2,  [r1,#4]
+
+str	   sp,  [r1,#4]
+
+//str
+
+//b		schedular
 //push	{r4}
 //push	{r5}
 //push	{r6}

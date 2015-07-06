@@ -1,8 +1,9 @@
 #include <stdint.h>
 
 typedef struct {
-	char *name;
+	uint8_t *name;
 	uint32_t sp;
+	uint32_t piority;
 }Tcb;
 
 typedef struct {

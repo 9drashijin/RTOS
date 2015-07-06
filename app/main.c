@@ -23,18 +23,19 @@ int main(void)
 	//testFunc();
 	//schedular();
 	initTcb();
+	//taskOne();
 
-	TaskBlock tb1, tb2, tb3, tb4;
-	initTaskBlock(&tb1);
-	initTaskBlock(&tb2);
-	initTaskBlock(&tb3);
-	initTaskBlock(&tb4);
+	//TaskBlock tb1, tb2, tb3, tb4;
+	//initTaskBlock(&tb1);
+	//initTaskBlock(&tb2);
+	//initTaskBlock(&tb3);
+	//initTaskBlock(&tb4);
 
-	initControl();
-	initLED1();
-	initLED2();
-	initLED3();
-	initLED4();
+	//initControl();
+	//initLED1();
+	//initLED2();
+	//initLED3();
+	//initLED4();
 
 	while(1)
 		{
@@ -45,7 +46,7 @@ int main(void)
 			//blink_LED1_yield(&tb1);
 			//blink_LED2_yield(&tb2);
 			//blink_LED3_yield(&tb3);
-			blink_4_LEDs(&tb4);
+			//blink_4_LEDs(&tb4);
 		}
 }
 
