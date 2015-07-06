@@ -20,10 +20,7 @@ void initSysTick(){
 int main(void)
 {
 	initSysTick();
-	//testFunc();
-	//schedular();
 	initTcb();
-	//taskOne();
 
 	//TaskBlock tb1, tb2, tb3, tb4;
 	//initTaskBlock(&tb1);
