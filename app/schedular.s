@@ -18,7 +18,6 @@
   .section  .text.schedular
   .type  schedular, %function
 schedular:
-//ldr    r0,  =#runningQueue
 
 /*
  ldr    r0,  =#0xabababab
@@ -39,14 +38,13 @@ schedular:
  b		 .
 */
 
-
 .align 0
 .type  SysTick_Handler, %function
  SysTick_Handler:
 // Your Code Starts here :
 // Push the rest of the register
 
-push	{r4-r11}
+push   {r4-r11}
 
 ldr    r0,  =runningQueue   //mov address of runningQ(mainTcb) to r0
 ldr    r1,  [r0]		    //deref runningQ, then content mov to r1
@@ -73,7 +71,7 @@ ldr    r11, [lr,#28]		//should get 0xbbbbbbbb
 ldr    r12, [lr,#48]		//should get 0xcccccccc
 //ldr    lr,  [r12,#52]
 ldr    pc,  [lr,#56]		// Load back the pc address
-bx 		lr					// branch back
+bx 	   lr					// branch back
 
 //b		schedular
 //push	{r4}
@@ -84,8 +82,3 @@ bx 		lr					// branch back
 //push	{r9}
 //push	{r10}
 //push	{r11}
-
- //push {r7, lr}
- //add r7, sp, #0
- //bl HAL_IncTick
- //pop {r7, pc}
