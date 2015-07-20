@@ -1,3 +1,6 @@
+#ifndef __LED_H
+#define __LED_H
+
 #define turnOnLED1() 	HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_SET);
 #define turnOffLED1() 	HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_RESET);
 #define turnOnLED2() 	HAL_GPIO_WritePin(GPIOG, GPIO_PIN_14, GPIO_PIN_SET);
@@ -48,3 +51,5 @@ void blink_LED2_yield(TaskBlock *tb);
 void blink_LED3_yield(TaskBlock *tb);
 void blink_4_LEDs(TaskBlock *tb);
 void yieldTest(TaskBlock *tb);
+
+#endif /* __LED_H */

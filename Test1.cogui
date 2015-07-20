@@ -14,45 +14,25 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="LED.c" partName="LED.c" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/LED.c" title="LED.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/LED.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/LED.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="242" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="LED.h" partName="LED.h" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/LED.h" title="LED.h" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/LED.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/LED.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1276" selectionTopPixel="0"/>
-</editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Task.c" partName="Task.c" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/Task.c" title="Task.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/Task.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/Task.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1614" selectionTopPixel="710"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Task.h" partName="Task.h" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/Task.h" title="Task.h" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/Task.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/Task.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="193" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/main.h" title="main.h" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/main.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/main.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2022" selectionTopPixel="206"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1828" selectionTopPixel="710"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/main.c" title="main.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="317" selectionTopPixel="161"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="317" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="schedular.s" partName="schedular.s" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/schedular.s" title="schedular.s" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/schedular.s" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/schedular.s"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1994" selectionTopPixel="635"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="1167" selectionTopPixel="600"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" partName="startup_stm32f429xx.s" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/startup_stm32f429xx.s" title="startup_stm32f429xx.s" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/startup_stm32f429xx.s" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/startup_stm32f429xx.s"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="LED.c" partName="LED.c" path="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/LED.c" title="LED.c" tooltip="C:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/app/LED.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Test1/LED.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5071" selectionTopPixel="3735"/>
 </editor>
 </editors>
 <views>
@@ -69,7 +49,7 @@
 <element path="/Test1/Hardware"/>
 </expanded>
 <selection>
-<element path="/Test1/Task.h"/>
+<element path="/Test1/system_stm32f4xx.c"/>
 </selection>
 </viewState>
 </view>
@@ -127,8 +107,8 @@
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
 <hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
-<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
 <hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
@@ -219,8 +199,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
 <hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
-<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
 <hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.coocox.builder.ui.views.ProjectView"/>
@@ -261,7 +241,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@328bbc" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18a0bce">
-<folder activePageID="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" appearance="2" expanded="2">
+<folder activePageID="org.coocox.codebugger.trace.ui.traceview" appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="Memory Browser"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
@@ -297,161 +277,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Test1/schedular.s"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Test1/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Test1/Task.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Test1/LED.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Test1/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Test1/schedular.s"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Test1/startup_stm32f429xx.s"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Test1/LED.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Test1/stm32f4xx_hal_conf.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Test1/stm32f4xx_it.h"/>
 </editors>
-<item historyLabel="Task.c" index="2">
-<position info="not_deleted" x="897" y="0"/>
-</item>
-<item historyLabel="Task.c" index="2">
-<position info="not_deleted" x="920" y="0"/>
-</item>
-<item historyLabel="Task.c" index="2">
-<position info="not_deleted" x="945" y="0"/>
-</item>
-<item historyLabel="LED.c" index="3">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="LED.c" index="3">
-<position info="not_deleted" x="242" y="0"/>
-</item>
-<item historyLabel="Task.c" index="2">
-<position info="not_deleted" x="962" y="0"/>
-</item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="939" y="0"/>
-</item>
-<item historyLabel="Task.c" index="2">
-<position info="not_deleted" x="1227" y="0"/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="4">
+<item historyLabel="stm32f4xx_it.h" index="6">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_hal_conf.h" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="909" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="317" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="939" y="0"/>
+<item historyLabel="Task.c" index="0">
+<position info="not_deleted" x="1157" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1009" y="0"/>
+<item historyLabel="startup_stm32f429xx.s" index="3">
+<position info="not_deleted" x="3665" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1073" y="0"/>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="317" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1134" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="909" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1184" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="979" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1244" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1043" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1303" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1104" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1358" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1154" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1405" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1214" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1452" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1273" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1499" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1328" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1546" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1375" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1593" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1422" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1640" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1469" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1687" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1516" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1734" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1563" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1781" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1610" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1828" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1657" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1875" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1704" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1922" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1751" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1994" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1798" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1845" y="0"/>
+</item>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1892" y="0"/>
+</item>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1964" y="0"/>
+</item>
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="798" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="851" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="874" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="897" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="920" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="945" y="0"/>
 </item>
-<item historyLabel="LED.c" index="3">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="LED.c" index="3">
-<position info="not_deleted" x="242" y="0"/>
-</item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="962" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="976" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="990" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="1004" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="1032" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="LED.c" index="4">
+<position info="not_deleted" x="5050" y="0"/>
+</item>
+<item historyLabel="LED.c" index="4">
+<position info="not_deleted" x="5071" y="0"/>
+</item>
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="1059" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
+<item historyLabel="Task.c" index="0">
 <position info="not_deleted" x="1086" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
-<position info="not_deleted" x="1113" y="0"/>
+<item historyLabel="Task.c" index="0">
+<position info="not_deleted" x="943" y="0"/>
 </item>
-<item historyLabel="Task.c" index="2">
-<position info="not_deleted" x="960" y="0"/>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1749" y="0"/>
 </item>
-<item historyLabel="schedular.s" index="0">
-<position info="not_deleted" x="1994" y="0"/>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="317" y="0"/>
 </item>
-<item active="true" historyLabel="Task.c" index="2">
-<position info="not_deleted" x="960" y="0"/>
+<item historyLabel="Task.c" index="0">
+<position info="not_deleted" x="1644" y="0"/>
+</item>
+<item historyLabel="schedular.s" index="2">
+<position info="not_deleted" x="1167" y="10"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item active="true" historyLabel="Task.c" index="0">
+<position info="not_deleted" x="1644" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -460,6 +442,18 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LED.c" tooltip="Test1/LED.c">
+<persistable path="/Test1/LED.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" tooltip="Test1/system_stm32f4xx.c">
+<persistable path="/Test1/system_stm32f4xx.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_it.h" tooltip="Test1/stm32f4xx_it.h">
+<persistable path="/Test1/stm32f4xx_it.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_hal_conf.h" tooltip="Test1/stm32f4xx_hal_conf.h">
+<persistable path="/Test1/stm32f4xx_hal_conf.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" tooltip="Test1/startup_stm32f429xx.s">
 <persistable path="/Test1/startup_stm32f429xx.s"/>
 </file>
@@ -475,9 +469,6 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="Test1/main.h">
 <persistable path="/Test1/main.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_it.h" tooltip="Test1/stm32f4xx_it.h">
-<persistable path="/Test1/stm32f4xx_it.h"/>
-</file>
 <file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm4.h" tooltip="C:\Users\D203C-01\CoIDE\workspace\stm32f4-discovery-LEDs\app\core_cm4.h">
 <persistable path="C:\Users\D203C-01\CoIDE\workspace\stm32f4-discovery-LEDs\app\core_cm4.h" project="Test1"/>
 </file>
@@ -492,9 +483,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_it.c" tooltip="Test1/stm32f4xx_it.c">
 <persistable path="/Test1/stm32f4xx_it.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" tooltip="Test1/system_stm32f4xx.c">
-<persistable path="/Test1/system_stm32f4xx.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Blinky/main.c">
 <persistable path="/Blinky/main.c"/>

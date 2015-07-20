@@ -1,3 +1,6 @@
+#ifndef __TASK_H
+#define __TASK_H
+
 #include <stdint.h>
 
 typedef struct {
@@ -30,3 +33,5 @@ extern uint8_t taskTwoStack[1028];
 
 void taskOne(void);
 void initTcb(void);
+
+#endif /* __TASK_H */

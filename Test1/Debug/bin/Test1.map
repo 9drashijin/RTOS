@@ -108,10 +108,44 @@ Discarded input sections
                 0x00000000       0x20 ..\obj\assembly.o
  .ARM.attributes
                 0x00000000       0x21 ..\obj\assembly.o
+ .text          0x00000000       0x3c ..\obj\Mailbox.o
+ .data          0x00000000        0x0 ..\obj\Mailbox.o
+ .bss           0x00000000        0x0 ..\obj\Mailbox.o
+ .debug_info    0x00000000      0x2b3 ..\obj\Mailbox.o
+ .debug_abbrev  0x00000000       0xc6 ..\obj\Mailbox.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\Mailbox.o
+ .debug_line    0x00000000      0x174 ..\obj\Mailbox.o
+ .debug_str     0x00000000      0x25a ..\obj\Mailbox.o
+ .comment       0x00000000       0x71 ..\obj\Mailbox.o
+ .debug_frame   0x00000000       0x88 ..\obj\Mailbox.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\Mailbox.o
  .bss           0x00000000        0x0 ..\obj\Task.o
  .data          0x00000000        0x0 ..\obj\stm32f4xx_hal_cortex.o
  .bss           0x00000000        0x0 ..\obj\stm32f4xx_hal_cortex.o
+ .text          0x00000000        0x0 ..\obj\Semaphore.o
+ .data          0x00000000        0x0 ..\obj\Semaphore.o
+ .bss           0x00000000        0x0 ..\obj\Semaphore.o
+ .debug_line    0x00000000        0x0 ..\obj\Semaphore.o
+ .debug_str     0x00000000       0xb2 ..\obj\Semaphore.o
+ .comment       0x00000000       0x71 ..\obj\Semaphore.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\Semaphore.o
  .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .text          0x00000000       0x3c ..\obj\mutex.o
+ .data          0x00000000        0x0 ..\obj\mutex.o
+ .bss           0x00000000        0x0 ..\obj\mutex.o
+ .debug_info    0x00000000      0x1f1 ..\obj\mutex.o
+ .debug_abbrev  0x00000000       0xc6 ..\obj\mutex.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\mutex.o
+ .debug_line    0x00000000      0x156 ..\obj\mutex.o
+ .debug_str     0x00000000      0x1e6 ..\obj\mutex.o
+ .comment       0x00000000       0x71 ..\obj\mutex.o
+ .debug_frame   0x00000000       0x88 ..\obj\mutex.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\mutex.o
  .data          0x00000000        0x0 ..\obj\stm32f4xx_hal.o
  .text          0x00000000        0x0 ..\obj\schedular.o
  .data          0x00000000        0x0 ..\obj\schedular.o
@@ -557,11 +591,14 @@ LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-
                 0x00000226       0x33 ..\obj\main.o
  .ARM.attributes
                 0x00000259       0x1e c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/crtn.o
-LOAD ..\obj\assembly.o
 LOAD ..\obj\LED.o
+LOAD ..\obj\assembly.o
+LOAD ..\obj\Mailbox.o
 LOAD ..\obj\Task.o
 LOAD ..\obj\stm32f4xx_hal_cortex.o
+LOAD ..\obj\Semaphore.o
 LOAD ..\obj\system_stm32f4xx.o
+LOAD ..\obj\mutex.o
 LOAD ..\obj\stm32f4xx_hal.o
 LOAD ..\obj\schedular.o
 LOAD ..\obj\stm32f4xx_it.o
