@@ -77,7 +77,7 @@
     <File name="Task.c" path="app/Task.c" type="1"/>
     <File name="stm32f4xx_it.h" path="app/stm32f4xx_it.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" type="1"/>
-    <File name="system_stm32f4xx.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" type="1"/>
+    <File name="system_stm32f4xx.h" path="app/system_stm32f4xx.h" type="1"/>
     <File name="Core/core_cmFunc.h" path="app/core_cmFunc.h" type="1"/>
     <File name="stm32f429xx.h" path="app/stm32f429xx.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal_cortex.c" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" type="1"/>

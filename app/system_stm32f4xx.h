@@ -53,6 +53,11 @@
  extern "C" {
 #endif 
 
+#define disableSysTickInterrupt()			\
+	(SysTick->CTRL &= -SysTick_CTRL_TICKINT_Msk)
+#define enableSysTickInterrupt()			\
+	(SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk)
+
 /** @addtogroup STM32F4xx_System_Includes
   * @{
   */
