@@ -28,7 +28,6 @@ typedef enum{
 	LED_INITIAL,
 	LED_ON_STATE,
 	LED_OFF_STATE
-	//LED_FINAL
 }State;
 
 typedef struct{

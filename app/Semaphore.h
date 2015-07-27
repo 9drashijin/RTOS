@@ -10,9 +10,9 @@ typedef struct {
 	LinkedList		blockedTcb;
 }Semaphore;
 
-void SemaphoreInit(Semaphore *semaphore, uint32_t initCount);
-void SemaphoreUp(Semaphore *semaphore);
-void SemaphoreDown(Semaphore *semaphore);
+void SemaphoreInit(Semaphore *semaphore, uint32_t initCount, uint32_t count);
+void SemaphoreUp(Semaphore *semaphore, uint32_t count);
+void SemaphoreDown(Semaphore *semaphore, uint32_t count);
 
 #endif /* __SEMAPHORE_H */
 

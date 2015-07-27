@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test1.map -O0 --gc-sections -LC:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs -TC:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/stm32f407vg_flash.ld -g">
-      <target file="Test1.elf" lastModified="14ea9ae9cfd">
-         <source file="..\obj\LED.o" lastModified="14ea9ae9a20"/>
-         <source file="..\obj\assembly.o" lastModified="14ea9ae9687"/>
-         <source file="..\obj\Mailbox.o" lastModified="14ea9ae92ff"/>
-         <source file="..\obj\Task.o" lastModified="14ea9ae92b1"/>
-         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14ea9ae9752"/>
-         <source file="..\obj\Semaphore.o" lastModified="14ea9ae981d"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="14ea9ae97bf"/>
-         <source file="..\obj\mutex.o" lastModified="14ea9ae986b"/>
-         <source file="..\obj\stm32f4xx_hal.o" lastModified="14ea9ae957e"/>
-         <source file="..\obj\schedular.o" lastModified="14ea9ae97df"/>
-         <source file="..\obj\stm32f4xx_it.o" lastModified="14ea9ae9475"/>
-         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14ea9ae9936"/>
-         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14ea9ae9668"/>
-         <source file="..\obj\startup_stm32f429xx.o" lastModified="14ea9ae94a4"/>
-         <source file="..\obj\main.o" lastModified="14ea9ae93ba"/>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test1.map -O0 --gc-sections -lm -lgcc -lc -LC:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs -TC:/Users/D203C-01/CoIDE/workspace/stm32f4-discovery-LEDs/stm32f407vg_flash.ld -g">
+      <target file="Test1.elf" lastModified="14ecd3b83b3">
+         <source file="..\obj\Mailbox.o" lastModified="14ecd3b7a50"/>
+         <source file="..\obj\assembly.o" lastModified="14ecd3b7dca"/>
+         <source file="..\obj\LED.o" lastModified="14ecd3b8162"/>
+         <source file="..\obj\Task.o" lastModified="14ecd3b7a02"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14ecd3b7e94"/>
+         <source file="..\obj\Semaphore.o" lastModified="14ecd3b7f5f"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14ecd3b7f02"/>
+         <source file="..\obj\mutex.o" lastModified="14ecd3b7fad"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="14ecd3b7cc0"/>
+         <source file="..\obj\schedular.o" lastModified="14ecd3b7f21"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="14ecd3b7bd6"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14ecd3b8078"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14ecd3b7dba"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="14ecd3b7be6"/>
+         <source file="..\obj\main.o" lastModified="14ecd3b7b1b"/>
       </target>
    </processor>
 </history>

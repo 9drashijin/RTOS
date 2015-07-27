@@ -14,4 +14,10 @@ typedef struct {
 	uint32_t length;
 }LinkedList;
 
+LinkedList *createLinkedList();
+void List_addFirst(LinkedList *list, Element *elem);
+Element *List_removeFirst(LinkedList *list);
+void List_addLast(LinkedList *list, Element *elem);
+Element *List_removeLast(LinkedList *list);
+
 #endif //__LINKED_LIST_H__

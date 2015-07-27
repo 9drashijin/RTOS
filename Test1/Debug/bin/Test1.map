@@ -96,18 +96,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x34 c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__atexit.o)
  .ARM.attributes
                 0x00000000       0x2e c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__atexit.o)
- .text          0x00000000        0x0 ..\obj\assembly.o
- .data          0x00000000        0x0 ..\obj\assembly.o
- .bss           0x00000000        0x0 ..\obj\assembly.o
- .text.testFunc
-                0x00000000       0x20 ..\obj\assembly.o
- .debug_line    0x00000000       0x83 ..\obj\assembly.o
- .debug_info    0x00000000       0xb9 ..\obj\assembly.o
- .debug_abbrev  0x00000000       0x14 ..\obj\assembly.o
- .debug_aranges
-                0x00000000       0x20 ..\obj\assembly.o
- .ARM.attributes
-                0x00000000       0x21 ..\obj\assembly.o
  .text          0x00000000       0x3c ..\obj\Mailbox.o
  .data          0x00000000        0x0 ..\obj\Mailbox.o
  .bss           0x00000000        0x0 ..\obj\Mailbox.o
@@ -121,6 +109,18 @@ Discarded input sections
  .debug_frame   0x00000000       0x88 ..\obj\Mailbox.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\Mailbox.o
+ .text          0x00000000        0x0 ..\obj\assembly.o
+ .data          0x00000000        0x0 ..\obj\assembly.o
+ .bss           0x00000000        0x0 ..\obj\assembly.o
+ .text.testFunc
+                0x00000000       0x20 ..\obj\assembly.o
+ .debug_line    0x00000000       0x83 ..\obj\assembly.o
+ .debug_info    0x00000000       0xb9 ..\obj\assembly.o
+ .debug_abbrev  0x00000000       0x14 ..\obj\assembly.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\assembly.o
+ .ARM.attributes
+                0x00000000       0x21 ..\obj\assembly.o
  .bss           0x00000000        0x0 ..\obj\Task.o
  .data          0x00000000        0x0 ..\obj\stm32f4xx_hal_cortex.o
  .bss           0x00000000        0x0 ..\obj\stm32f4xx_hal_cortex.o
@@ -591,9 +591,9 @@ LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-
                 0x00000226       0x33 ..\obj\main.o
  .ARM.attributes
                 0x00000259       0x1e c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/crtn.o
-LOAD ..\obj\LED.o
-LOAD ..\obj\assembly.o
 LOAD ..\obj\Mailbox.o
+LOAD ..\obj\assembly.o
+LOAD ..\obj\LED.o
 LOAD ..\obj\Task.o
 LOAD ..\obj\stm32f4xx_hal_cortex.o
 LOAD ..\obj\Semaphore.o
@@ -606,6 +606,9 @@ LOAD ..\obj\stm32f4xx_hal_gpio.o
 LOAD ..\obj\stm32f4xx_hal_rcc.o
 LOAD ..\obj\startup_stm32f429xx.o
 LOAD ..\obj\main.o
+LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libm.a
+LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
+LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a
 START GROUP
 LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
 LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libg.a

@@ -54,7 +54,6 @@ void taskOne(void){
 	}
 }
 
-//Init all the TCB
 void initTcb(){
 	mainTcb.name = (uint8_t *)"main_thread";
 	mainTcb.sp = 0x12345678;

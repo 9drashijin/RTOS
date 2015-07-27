@@ -56,6 +56,7 @@ ldr    r0,  =readyQueue     //mov address of taskOne to r0
 ldr    r1,  [r0]			//deref readyQ, then content mov to r1
 ldr    lr,  [r1,#4]			//value of taskOne move to lr
 
+
 ldr    r0,  [lr,#32]		//should get 0xabababab
 ldr    r1,  [lr,#36]		//should get 0x11111111
 ldr    r2,  [lr,#40]		//should get 0x22222222
@@ -72,6 +73,11 @@ ldr    r12, [lr,#48]		//should get 0xcccccccc
 //ldr    lr,  [r12,#52]
 ldr    pc,  [lr,#56]		// Load back the pc address
 bx 	   lr					// branch back
+
+//pop		{r4-r11}
+//pop		{r0-r3}
+//pop		{r12}
+//bx 	    lr
 
 //b		schedular
 //push	{r4}
