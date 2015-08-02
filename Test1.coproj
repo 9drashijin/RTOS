@@ -77,8 +77,8 @@
     <File name="Mailbox.c" path="app/Mailbox.c" type="1"/>
     <File name="assembly.s" path="app/assembly.s" type="1"/>
     <File name="LED.c" path="app/LED.c" type="1"/>
-    <File name="Task.c" path="app/Task.c" type="1"/>
     <File name="Hardware" path="" type="2"/>
+    <File name="Task.c" path="app/Task.c" type="1"/>
     <File name="stm32f4xx_it.h" path="app/stm32f4xx_it.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" type="1"/>
     <File name="system_stm32f4xx.h" path="app/system_stm32f4xx.h" type="1"/>
@@ -88,14 +88,14 @@
     <File name="Task.h" path="app/Task.h" type="1"/>
     <File name="Semaphore.c" path="app/Semaphore.c" type="1"/>
     <File name="system_stm32f4xx.c" path="app/system_stm32f4xx.c" type="1"/>
-    <File name="Hardware/stm32f4xx_hal_rcc.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" type="1"/>
     <File name="Core/core_cmSimd.h" path="app/core_cmSimd.h" type="1"/>
-    <File name="Mutex.c" path="app/mutex.c" type="1"/>
+    <File name="Hardware/stm32f4xx_hal_rcc.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal.c" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" type="1"/>
+    <File name="Mutex.c" path="app/mutex.c" type="1"/>
     <File name="Core/core_cmInstr.h" path="app/core_cmInstr.h" type="1"/>
     <File name="schedular.s" path="app/schedular.s" type="1"/>
-    <File name="Mutex.h" path="app/mutex.h" type="1"/>
     <File name="main.h" path="app/main.h" type="1"/>
+    <File name="Mutex.h" path="app/mutex.h" type="1"/>
     <File name="stm32f4xx_it.c" path="app/stm32f4xx_it.c" type="1"/>
     <File name="stm32f4xx_hal_conf.h" path="app/stm32f4xx_hal_conf.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal_gpio.c" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" type="1"/>

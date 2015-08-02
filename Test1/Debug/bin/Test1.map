@@ -133,6 +133,7 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x33 ..\obj\Semaphore.o
  .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_hal.o
  .text          0x00000000       0x3c ..\obj\mutex.o
  .data          0x00000000        0x0 ..\obj\mutex.o
  .bss           0x00000000        0x0 ..\obj\mutex.o
@@ -146,7 +147,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x88 ..\obj\mutex.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\mutex.o
- .data          0x00000000        0x0 ..\obj\stm32f4xx_hal.o
  .text          0x00000000        0x0 ..\obj\schedular.o
  .data          0x00000000        0x0 ..\obj\schedular.o
  .bss           0x00000000        0x0 ..\obj\schedular.o
@@ -598,8 +598,8 @@ LOAD ..\obj\Task.o
 LOAD ..\obj\stm32f4xx_hal_cortex.o
 LOAD ..\obj\Semaphore.o
 LOAD ..\obj\system_stm32f4xx.o
-LOAD ..\obj\mutex.o
 LOAD ..\obj\stm32f4xx_hal.o
+LOAD ..\obj\mutex.o
 LOAD ..\obj\schedular.o
 LOAD ..\obj\stm32f4xx_it.o
 LOAD ..\obj\stm32f4xx_hal_gpio.o
